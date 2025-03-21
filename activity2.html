@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+       #header{
+        height: 80px;
+        background-color: rgb(46, 248, 120);
+        text-align: center;
+       }
+       a{
+        margin-inline-start: 20px;
+        text-decoration: none;
+        color: black;
+       }
+       #body{
+        height: 150px;
+        width: 400px;
+        box-shadow: 1px 1px 0px 0px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(253, 253, 255);
+    }
+    #all{
+        background-color: rgb(195, 195, 210);
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        gap: 30px;
+        padding: 20px;
+        
+       }
+       #footer{
+        background-color: rgb(21, 19, 19);
+        color: aliceblue;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-top: 3px;
+       }
+       
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>Welcome To Our Website Task</h2>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>    
+
+        <div id="all">
+            <div id="body">
+                <h3>About CSS</h3>
+                <p>Cascading Style Sheets(CSS) allow you to style and layout your webpages, adding, spacing and more.</p>
+            </div>
+            <div id="body">
+                <h3>Box Model</h3>
+                <p>The CSS box model describe the rectangular boxes generated for elements. It include margins, border, padding and the actual content.</p>
+            </div>
+            <div id="body">
+                <h3>Responsive design</h3>
+                <p>  ensure your webpages looks great on all devices from desktops to mobile phones.</p>
+            </div>
+        </div>
+        
+        <div id="footer">
+             <p>Created by [Ankit Kumar Singh] Follow us on <span style="color: rgb(46, 248, 120); cursor: pointer;"> Instagram | Twitter | Linkedin</span></p>
+        </div>
+    
+</body>
+</html>
